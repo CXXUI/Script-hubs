@@ -5,11 +5,12 @@ local window = library:CreateWindow("Servx Hub")
 local Main = window:CreateTab("Main")
 
 local label = Main:CreateLabel("Created by Saicon#9523")
+
 local button = Main:CreateButton("Coming Soon", function()
     print("Clicked")
-	end)
+end)
 
-	local button = Main:CreateButton("Coming Soon", function()
+local button = Main:CreateButton("Coming Soon", function()
     print("Clicked")
 end)
 
@@ -17,9 +18,9 @@ local slider = Main:CreateSlider("Coming Soon",0,100,function(arg)
 	print(arg)
 end)
 ------HUBS AND GUIS----
-local Hubs  = window:CreateTab("Hubs and Guis")
+local Hubs = window:CreateTab("Hubs and Guis")
 
-	local button = Hubs:CreateButton("Equinox Hub", function ()
+local button = Hubs:CreateButton("Equinox Hub", function ()
    loadstring(game:HttpGet("https://pastebin.com/raw/KjgQ6zsf"))()
 end)
 
@@ -36,7 +37,7 @@ local button = Hubs:CreateButton("Simplity 2.0", function ()
 end)
 
 local button = Hubs:CreateButton("Universal FE Script Hub", function ()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script"))()
 end)
 
 local button = Hubs:CreateButton("MRDestroyer Hub V2", function ()
@@ -72,20 +73,20 @@ local button = Hubs:CreateButton("Lost Point Hub", function ()
 end)
 
 local button = Hubs:CreateButton("RemX", function ()
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Henry887/RemX-Script-Hub/main/main.lua'),true))()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Henry887/RemX-Script-Hub/main/main.lua"),true))()
 end)
 
 local label = Hubs:CreateLabel("GUIS")
 
 local button = Hubs:CreateButton("Universal FE Scripts", function ()
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/UniversalDance-AnimGui.lua'))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/UniversalDance-AnimGui.lua"))()
 end)
 
 local button = Hubs:CreateButton("Backdoor Finder", function ()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
 end)
 
-local button = Hubs:CreateButton("C00lkidd GUI V2") (function ()
+local button = Hubs:CreateButton("C00lkidd GUI V2",function ()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CXXUI/Script-hubs/main/Servx%20hub%20V2"))
 end)
 
@@ -94,11 +95,11 @@ local button = Hubs:CreateButton("Ultimate Trolling GUI V3",function ()
 end)
 
 local button = Hubs:CreateButton("Meep City Destroyer V2", function ()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/synolope/meepcracked/main/loader.lua'))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/synolope/meepcracked/main/loader.lua"))()
 end)
 
-local button = Hubs:CreateButton("Harked V2", function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/CXXUI/Script-hubs/main/Harked%20v2%20raw'))()
+local button = Hubs:CreateButton("Meep City Destroyer V2", function ()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CXXUI/Script-hubs/main/Harked%20v2%20raw"))()
 end)
 
 local button = Hubs:CreateButton("FE Trolling GUI", function ()
